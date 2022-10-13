@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboarding.ConstructionServicesActivity">
+
+    <View
+        android:id="@+id/construction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/construction_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="225dp"
+        android:contentDescription="@string/construction"
+        android:hapticFeedbackEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/construction"
+        app:layout_constraintVertical_bias="0.25"
+        android:src="@drawable/construction"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/construction_title"
+        android:layout_width="318dp"
+        android:layout_height="61dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/construction_str"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/construction_icon"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:layout_width="277dp"
+        android:layout_height="115dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/construction_str_txt"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/construction_title"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <Button
+        android:id="@+id/chat_seller_next"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:drawableEnd="@drawable/ic_right"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/next"
+        android:onClick="forward"
+        android:textColor="@color/white"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

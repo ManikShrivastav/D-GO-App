@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "316115768846",
+    "project_id": "d-gocwork",
+    "storage_bucket": "d-gocwork.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316115768846:android:fb1cf85ed11d3363f20e5f",
+        "android_client_info": {
+          "package_name": "com.dgo.dgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316115768846-mcvg0jipef9ee2c4fisos15s56ghbru8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDlkhPmDwIQ_ZKQby42UioGUdiRHxymdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316115768846-mcvg0jipef9ee2c4fisos15s56ghbru8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

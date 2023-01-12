@@ -30,4 +30,8 @@ public class NoInternetActivity extends AppCompatActivity {
     public void tryagain(View view) {
         startActivity(new Intent(NoInternetActivity.this, SplashScreenActivity.class));
     }
+    @Override
+    public void onBackPressed() {
+               finishAffinity();
+         }
 }
